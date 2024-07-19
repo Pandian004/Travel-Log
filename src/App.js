@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import "bootstrap-icons/font/bootstrap-icons.css";
+import logo from './Asserts/Logo.png'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='text-3xl w-screen h-screen'>
+      {/* <i class="bi bi-moon-stars"></i>Hello World!<i class="bi bi-sun"></i> */}
+      <h1 className='flex items-center font-medium font-Popins  p-5'><img src = {logo} alt='logo' className='w-16'/>Travel Log</h1>
     </div>
   );
 }
